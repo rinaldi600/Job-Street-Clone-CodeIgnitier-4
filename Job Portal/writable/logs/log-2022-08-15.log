@@ -1,0 +1,74 @@
+CRITICAL - 2022-08-15 12:35:40 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(62): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-15 12:36:27 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(62): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-15 12:37:00 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(62): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-15 12:38:10 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(64): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-15 12:38:56 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(64): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-08-15 12:39:52 --> Undefined variable: e
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-15 12:42:08 --> There is no data to update.
+#0 C:\xampp\htdocs\Job Portal\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\Job Portal\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\Job Portal\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(64): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->changeLowongan()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

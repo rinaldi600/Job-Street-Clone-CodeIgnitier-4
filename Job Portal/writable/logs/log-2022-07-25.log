@@ -1,0 +1,13 @@
+CRITICAL - 2022-07-25 13:27:24 --> Undefined variable: title
+#0 C:\xampp\htdocs\Job Portal\app\Views\LayoutHome\LayoutHomeView.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Job Portal\system\View\View.php(226): CodeIgniter\View\View->render('LayoutHome/Layo...', Array, true)
+#4 C:\xampp\htdocs\Job Portal\system\Common.php(1089): CodeIgniter\View\View->render('LoginCompany/Vi...', Array, true)
+#5 C:\xampp\htdocs\Job Portal\app\Controllers\LoginCompany.php(9): view('LoginCompany/Vi...')
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\LoginCompany->index()
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginCompany))
+#8 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

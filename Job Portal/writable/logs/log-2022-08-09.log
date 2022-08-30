@@ -1,0 +1,11 @@
+CRITICAL - 2022-08-09 14:55:42 --> Call to undefined function facebook_time_age()
+#0 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Job Portal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardCompan...', Array, true)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(48): view('DashboardCompan...', Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->previewJob('JOB - 62e8c5284...', 'Front-End-Devel...')
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

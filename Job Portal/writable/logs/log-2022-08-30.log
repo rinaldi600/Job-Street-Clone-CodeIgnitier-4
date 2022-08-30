@@ -1,0 +1,18 @@
+CRITICAL - 2022-08-30 12:45:57 --> Undefined variable: detailUser
+#0 C:\xampp\htdocs\Job Portal\app\Views\LayoutHome\Navbar\NavbarViewPartial.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Job Portal\system\View\View.php(424): CodeIgniter\View\View->render('LayoutHome/Navb...', NULL, true)
+#4 C:\xampp\htdocs\Job Portal\app\Views\LayoutHome\LayoutHomeView.php(16): CodeIgniter\View\View->include('LayoutHome/Navb...')
+#5 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Job Portal\system\View\View.php(226): CodeIgniter\View\View->render('LayoutHome/Layo...', Array, true)
+#8 C:\xampp\htdocs\Job Portal\system\View\View.php(226): CodeIgniter\View\View->render('DashboardUser/D...', Array, true)
+#9 C:\xampp\htdocs\Job Portal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardUser/P...', Array, true)
+#10 C:\xampp\htdocs\Job Portal\app\Controllers\UserDashboard.php(37): view('DashboardUser/P...', Array)
+#11 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\UserDashboard->user()
+#12 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboard))
+#13 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#16 {main}

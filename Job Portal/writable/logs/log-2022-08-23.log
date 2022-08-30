@@ -1,0 +1,89 @@
+CRITICAL - 2022-08-23 12:49:33 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\Job Portal\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Job Portal\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Job Portal\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('detail_job', 'before')
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-08-23 12:49:44 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\Job Portal\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\Job Portal\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\Job Portal\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('detail_job', 'before')
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-08-23 13:04:12 --> Unknown column 'idJob' in 'where clause'
+CRITICAL - 2022-08-23 13:04:12 --> Unknown column 'idJob' in 'where clause'
+#0 C:\xampp\htdocs\Job Portal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Job Portal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Job Portal\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Job Portal\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Job Portal\app\Controllers\Job.php(52): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\Job->applyJob()
+#8 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job))
+#9 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-23 13:04:59 --> Unknown column 'idJob' in 'where clause'
+CRITICAL - 2022-08-23 13:04:59 --> Unknown column 'idJob' in 'where clause'
+#0 C:\xampp\htdocs\Job Portal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Job Portal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Job Portal\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Job Portal\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Job Portal\app\Controllers\Job.php(52): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\Job->applyJob()
+#8 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job))
+#9 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-23 13:05:19 --> Unknown column 'idJob' in 'where clause'
+CRITICAL - 2022-08-23 13:05:19 --> Unknown column 'idJob' in 'where clause'
+#0 C:\xampp\htdocs\Job Portal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Job Portal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Job Portal\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Job Portal\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Job Portal\app\Controllers\Job.php(52): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\Job->applyJob()
+#8 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job))
+#9 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-08-23 13:06:58 --> Unknown column 'idJob' in 'where clause'
+CRITICAL - 2022-08-23 13:06:58 --> Unknown column 'idJob' in 'where clause'
+#0 C:\xampp\htdocs\Job Portal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Job Portal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Job Portal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Job Portal\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Job Portal\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\Job Portal\app\Controllers\Job.php(52): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\Job->applyJob()
+#8 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Job))
+#9 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-08-23 13:23:18 --> Call to undefined function dump()
+#0 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Job Portal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardUser/P...', Array, true)
+#3 C:\xampp\htdocs\Job Portal\app\Controllers\UserDashboard.php(48): view('DashboardUser/P...', Array)
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\UserDashboard->myApplication()
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserDashboard))
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,465 @@
+nav {
+    background-color: white;
+    font-family: "Roboto-Regular";
+}
+.link-one {
+    height: 100%;
+}
+.link-one li:hover {
+    background-color: #F4F6FE;
+}
+.company {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(73,100,234);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/*Registration View*/
+.registration-view {
+    background-color: #E5E5E5;
+    font-family: "Roboto-Regular";
+    min-height: 95vh;
+    overflow-x: hidden;
+}
+.registration-view .description {
+    padding: 20px;
+}
+.registration-view .view {
+    background-color: white;
+    min-height: 600px;
+}
+.registration-view small {
+    color: rgb(128,128,128);
+}
+.btn-facebook {
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(59,89,152);
+}
+.btn-facebook:hover {
+    color: white;
+    background-color: #428BCA;
+}
+.form-registration {
+    padding: 20px;
+    font-size: 15px;
+}
+.form-registration .form-control {
+    border-radius: 0;
+}
+.form-registration .line {
+    align-items: center;
+    gap: 20px;
+    color:  rgb(206,206,206);
+}
+.form-registration .line-one,  .form-registration .line-two {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid rgb(206,206,206);
+}
+.form-registration .button-two {
+    display: grid;
+    justify-content: center;
+}
+.form-registration .btn-daftar {
+    width: 100%;
+    background-color: rgb(230,2,120);
+    color: white;
+}
+.form-registration .btn-daftar:hover {
+    background-color: #FF1D92;
+}
+
+/*Job View*/
+.job-view {
+    background-color: #F6F8FA;
+    min-height: 100vh;
+}
+.job-view > * {
+    font-family: "Roboto-Regular";
+}
+.job-view .search-bar {
+    min-height: 120px;
+    background-color: #0D3880;
+}
+.job-view .search-bar input[type=text] {
+    outline: none;
+    border: none;
+}
+.job-view .search-bar .search {
+    border-radius: 5px;
+}
+.job-view .search-bar .button button[type=button] {
+    height: 100%;
+}
+.job-view .search-bar input[type=text]:hover,
+.job-view .search-bar input[type=text]:focus,
+.job-view .search-bar input[type=text]:active {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    box-shadow: none;
+}
+.job-view .search-bar svg {
+    color: rgb(44,95,161);
+    left: 25px;
+}
+.job-view .search-bar .btn-search {
+    width: 150px;
+    background-color: transparent !important;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.job-view .list-job .list,
+.job-view .list-job .details {
+    min-height: 80vh;
+}
+.job-view .list-job .list .card-job {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 10px solid #502EAA;
+}
+.job-view .list-job .details .detail-job {
+    overflow-y: scroll;
+}
+.job-view .list-job .details .detail-job .apply {
+    height: 100px;
+}
+
+/*Dashboard User*/
+.dashboard-user > * {
+    font-family: "Roboto-Regular";
+}
+.dashboard-user .menu-dashboard {
+    list-style-type: none;
+}
+.dashboard-user .navbar-cv {
+    width: 100%;
+    height: 100px;
+}
+.dashboard-user .navbar-cv h3 {
+    cursor: pointer;
+}
+.dashboard-user .btn-upload-cv {
+    background-color: rgb(13,56,128);
+    color: white;
+}
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgb(13,56,128) !Important;
+    border: solid 1px rgb(13,56,128) !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
+}
+.dashboard-user .btn-upload-cv.none {
+    pointer-events: none;
+}
+.block {
+    background-color: rgba(0,0,0,.25);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+/* Registration Company */
+.section-one .bg-employee {
+    width: 100%;
+    min-height: 600px;
+    background-image: url("/img/H_EI_A_Top-5-Reasons-Why-JobStreet-is-the-Best-Platform-for-Hirers-Article-Photo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-one .feature {
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(248,248,250);
+    font-family: "Roboto-Regular";
+}
+.feature .list-feature {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+.feature .list-feature span {
+    font-size: 1.25rem !important;
+}
+.section-one .offering {
+    min-height: 500px;
+    background-color: white;
+}
+.section-one .offering > * {
+    font-family: "Roboto-Regular";
+}
+.section-one .offering .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.form-employee {
+    width: 45%;
+}
+.form-employee .btn:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-employee > * {
+    font-family: "Roboto-Regular";
+}
+.footer-registration-company > * {
+    font-family: "Roboto-Regular";
+}
+.footer-registration-company {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center
+}
+.footer-registration-company div a:hover {
+    color: white !important;
+}
+
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@media (max-width: 575.98px) {
+    .link-one {
+        align-items: center;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    .link-one li:hover {
+        background-color: #F4F6FE;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .box-search .button {
+        display: grid;
+        justify-content: center;
+    }
+    .feature .list-feature {
+        right: 0;
+    }
+    .feature .list-feature span {
+        font-size: 0.7rem !important;
+    }
+    .form-employee {
+        width: 80% !important;
+    }
+    .container-employee {
+        display: grid;
+        align-items: center;
+        padding: 5px;
+    }
+    .feature-one {
+        padding: 30px;
+    }
+    .feature-one .text {
+        margin-top: 10px;
+    }
+    .image .image-two {
+        margin-top: 10px;
+    }
+    .footer-registration-company {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .link-one {
+        align-items: center;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    .link-one li:hover {
+        background-color: #F4F6FE;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .form-employee {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .feature-one {
+        display: flex;
+        align-items: center;
+    }
+    .footer-registration-company {
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .link-one {
+        align-items: center;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    .link-one li:hover {
+        background-color: #F4F6FE;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .form-employee {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .feature-one {
+        display: flex;
+        align-items: center;
+    }
+    .footer-registration-company {
+        gap: 10px;
+        padding: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1050px) {
+    .menu-responsive-two {
+        display: none;
+    }
+    .link-one {
+        position: relative;
+    }
+    .link-one li:hover {
+        border-radius: 5px;
+        background-color: #F4F6FE;
+    }
+    .menu-responsive ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .job-view .list-job .details .description {
+        position: fixed;
+        top: 30%;
+        left: 60%;
+    }
+    .form-employee {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .feature-one {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 1050.1px) and (max-width: 1199.98px) {
+    .link-one {
+        position: absolute;
+    }
+    .link-one li a {
+        margin-top: 10px;
+    }
+    .link-two li ul {
+        position: absolute;
+        height: 100px;
+        padding: 2px;
+        top: 2px;
+        bottom: 0;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    .job-view .list-job .details .description {
+        position: fixed;
+        top: 30%;
+        left: 60%;
+    }
+    .form-employee {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .feature-one {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .link-one {
+        position: absolute;
+    }
+    .link-one li a {
+        margin-top: 10px;
+    }
+    .link-two li ul {
+        position: absolute;
+        height: 100px;
+        padding: 2px;
+        top: 2px;
+        bottom: 0;
+    }
+    .menu-responsive {
+        display: none;
+    }
+    .job-view .list-job .details .description {
+        position: fixed;
+        top: 30%;
+        left: 60%;
+    }
+    .form-employee {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .feature-one {
+        display: flex;
+        align-items: center;
+    }
+}

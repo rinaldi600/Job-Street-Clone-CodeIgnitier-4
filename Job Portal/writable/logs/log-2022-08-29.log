@@ -1,0 +1,60 @@
+CRITICAL - 2022-08-29 12:59:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV - 230470332a...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 12:59:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV - 230470332a...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 13:00:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV - 230470332a...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 13:00:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV - 230470332a...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 13:01:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV -&630b1469ef...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 13:02:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 120, Array)
+#1 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV -&630b1469ef...')
+#2 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-08-29 13:05:45 --> Undefined variable: data
+#0 C:\xampp\htdocs\Job Portal\app\Views\DashboardCompany\ViewCV\View.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Job Portal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Job Portal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Job Portal\system\Common.php(1089): CodeIgniter\View\View->render('DashboardCompan...', Array, true)
+#4 C:\xampp\htdocs\Job Portal\app\Controllers\CompanyDashboard.php(123): view('DashboardCompan...', Array)
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\CompanyDashboard->viewCV('CV - 630b1469ef...')
+#6 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyDashboard))
+#7 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

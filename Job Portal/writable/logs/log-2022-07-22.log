@@ -1,0 +1,20 @@
+CRITICAL - 2022-07-22 16:12:57 -->                     max_size is not a valid rule.
+#0 C:\xampp\htdocs\Job Portal\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('               ...')
+#1 C:\xampp\htdocs\Job Portal\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('logoPerusahaan', 'Logo Perusahaan', NULL, Array, Array)
+#2 C:\xampp\htdocs\Job Portal\app\Controllers\RegistrationCompany.php(86): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\RegistrationCompany->registrationCompany()
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrationCompany))
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-22 16:13:44 -->                     max_size is not a valid rule.
+#0 C:\xampp\htdocs\Job Portal\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('               ...')
+#1 C:\xampp\htdocs\Job Portal\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('logoPerusahaan', 'Logo Perusahaan', NULL, Array, Array)
+#2 C:\xampp\htdocs\Job Portal\app\Controllers\RegistrationCompany.php(86): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(825): App\Controllers\RegistrationCompany->registrationCompany()
+#4 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrationCompany))
+#5 C:\xampp\htdocs\Job Portal\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Job Portal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Job Portal\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
